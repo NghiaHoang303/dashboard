@@ -1,0 +1,202 @@
+.user {
+    /* display: flex; */
+    flex: 4;
+    padding: 20px;
+    display: block;
+}
+
+.userContainer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: space-between;
+}
+.userInfo {
+    -webkit-box-shadow: 3px 2px 7px 0px #757575; 
+    box-shadow: 3px 2px 7px 0px #757575;
+    padding: 20px;
+    height: 500px;
+    flex: 1;
+}
+
+.userContainerTitle {
+    font-size: 36px;
+
+}
+
+.userBtnCreate {
+    width: 100px; height:40px;
+    background-color: rgb(2, 125, 182);
+    outline: none;
+    border-radius:10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.userInfoCommon {
+    display: flex;
+    flex: 2;
+    margin-right: 40px;
+    width: 100%;
+}
+
+.userInfoIntro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.userInfoAvatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.userInfoStaff {
+
+}
+
+.userInfoName {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.userInfoPosition {
+    font-size: 18px;
+    color: #555;
+
+}
+
+.userInfoTitle {
+    color: rgb(179, 178, 178);
+    margin: 20px 0;
+
+}
+
+.userInfoAccountDetail {
+
+}
+
+.userInfoAccNameAndBirth {
+    /* display: flex; */
+}
+
+.userInfoAccountNickname {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.userInfoAccountIcon {
+    margin-right: 20px;
+}
+
+
+.userInfoAccountBirth {
+    display: flex;
+    align-items: center;
+   
+}
+
+.userInfoContactDetail {
+
+}
+
+.userInfoContactPhone {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+
+}
+
+.userInfoContactEmail {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+
+}
+
+.userInfoContactCountry {
+   
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+
+}
+
+.userUpdate {
+    flex: 3;
+    -webkit-box-shadow: 3px 2px 7px 0px #757575; 
+    box-shadow: 3px 2px 7px 0px #757575;
+    padding: 20px;
+    height: 400px;
+    margin-left: 40px;
+    justify-content: space-around;
+    display: flex;
+    height: 500px
+}
+
+.formGroup {
+  margin-bottom: 30px;
+}
+
+.formTitle{
+    font-size: 30px;
+    margin-bottom: 40px;
+
+}
+
+.formGroupTitle {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.formGroupInput {
+    border:none;
+    border-bottom: 1px solid #ccc;
+    width: 300px;
+    outline: none;
+    color: #333;
+    font-size: 16px;
+}
+.formGroupUpdate {
+    display: block;
+    text-align: -webkit-right;
+}
+.formGroupUpdateImage {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.uploadFileBtn {
+    position: absolute;
+    top: 35%;
+    cursor: pointer;
+    color:rgb(0, 153, 20);
+
+   /* margin-bottom: 50px; */
+}
+
+.btnUpdate {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    margin-top: 120px;
+    align-items:center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(217, 235, 219);
+    color:rgb(0, 153, 20);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btnUpdate:hover {
+    background-color: rgb(194, 245, 200);
+
+}

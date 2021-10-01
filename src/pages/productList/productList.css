@@ -1,0 +1,47 @@
+.productList {
+    flex: 4;
+}
+
+.productListProduct {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productAvatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.productListBtnEdit {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: darkblue;
+    background-color: rgb(192, 192, 251);
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.productListBtnEdit:hover {
+    background-color: rgb(161, 161, 241)
+}
+
+.productListBtnDelete {
+    color: red;
+    font-style: 30px;
+    cursor: pointer;
+    transition: ease 500ms;
+
+}
+
+.productListBtnDelete:hover {
+    background-color: rgb(251, 186, 181);
+    border-radius: 50%;
+    transform: scaleY(1.08)
+} 

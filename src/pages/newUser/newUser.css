@@ -1,0 +1,81 @@
+.newUser {
+    flex: 4;
+}   
+
+.formNewUser {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formNewUserLeft {
+    flex: 1;
+}
+
+.formGroup {
+
+}
+
+.newUserTitle {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.formGroupTitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: #999;
+}
+
+.newUserInput {
+    width: 450px;
+    height: 28px;
+    padding: 10px;
+}
+
+.formNewUserRight {
+    flex: 2
+}
+
+.newUserSelect {
+    height: 48px;
+    width: 474px;
+    padding: 10px;
+}
+
+.newUserRadio {
+    margin-top: 24px;
+    margin-right: 8px;
+    cursor: pointer;
+    width: 20px;
+    font-size: 30px;
+}
+
+.newUserGenderTitle {
+    margin-bottom: 20px;
+  
+}
+
+.formGroupGender {
+    line-height:20px;
+    display: flex;
+}
+
+.newUserGenderGroup {
+    margin-right: 30px;
+}
+
+.newUserBtnCreate {
+    width:220px;
+    height: 40px;
+    background-color:rgb(96, 96, 245);
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.newUserBtnCreate:hover {
+    background-color:rgb(53, 53, 245);
+}

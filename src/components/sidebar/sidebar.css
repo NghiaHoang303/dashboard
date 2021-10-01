@@ -36,11 +36,17 @@
 }
 
 .sidebarIcon {
-    font-size: 32px !important;
+    font-size: 24px !important;
     margin:0 10px;
 }
 
 .sidebarItem.active,
 .sidebarItem:hover {
     background-color: rgb(227, 233, 253)
+}
+
+.sidebarItemLink {
+    text-decoration: none;
+    color: #555;
+    width: 200px;
 }
