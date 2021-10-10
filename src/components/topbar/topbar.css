@@ -29,6 +29,7 @@
     /* position: relative; */
     display: flex;
     align-items: center;
+    max-height: 100px;
 }
 
 .topbarIconContainer {
@@ -64,4 +65,10 @@
 .topbarLink {
     text-decoration: none;
     color: darkblue;
+}
+
+.topBarLinkRegister {
+    text-decoration: none;
+    color: #444;
+    margin-right: 20px;
 }

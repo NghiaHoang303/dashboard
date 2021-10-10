@@ -31,8 +31,15 @@ export default function TopBar() {
                         <Settings/>
                         {/* <span className = "topIconBagde">2</span> */}
                     </div>
-
                     <img src="https://i.pinimg.com/736x/0d/74/08/0d7408886db088edf667f52c7a06caca.jpg" alt="" className="topAvatar" />
+                    <Link to='/login'  className="topBarLinkRegister">login</Link>
+                    <Link to='/register' className="topBarLinkRegister">Register</Link>
+                    {/* <div>
+                        <div className="register">
+                            <Link to='/register' className="topBarLinkRegister">Register</Link>
+                            <Link to='/login'  className="topBarLinkRegister">login</Link>
+                        </div>
+                    </div> */}
                 </div>
 
             </div>

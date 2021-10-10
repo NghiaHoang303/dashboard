@@ -50,3 +50,20 @@
     color: #555;
     width: 200px;
 }
+
+.btnLogout {
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(84, 100, 238);
+    color: #fff;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnLogout:hover {
+    background-color: rgb(62, 80, 246);
+    transition: ease-in 100ms;  
+}

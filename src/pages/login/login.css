@@ -1,0 +1,172 @@
+.login {
+    padding: 0px 100px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+.loginLeft {
+    flex: 1;
+    background: #00C9FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #adffb5, #019fca);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #076df3, #42eb9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px 0 0 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    padding: 20px;
+}
+
+.loginLeftTitle {
+    font-size: 50px;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align-last: left;
+    padding: 0px 0px 0px 200px;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 50%;
+    color: white;
+    line-height: 60px;
+  
+}
+
+.loginBoxSm {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+   position: absolute;
+   right: 60%;
+}
+
+.loginBoxLg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    position: absolute;
+    right: 80%;
+    top: 65%;
+}
+.loginBoxMid{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    position: absolute;
+    right: 90%;
+    top: 10%;
+}
+
+.loginLeftImage1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    position: absolute;
+    right: 80%;
+    top: 30%;
+}
+
+.loginLeftImage2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+   position: absolute;
+   right: 60%;
+   top: 70%;
+}
+
+.loginLeftImage3 {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+   position: absolute;
+   right: 48%;
+   top: 30%
+}
+
+
+.loginRight {
+    flex: 1;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    padding: 20px;
+    border-radius: 0 20px 20px 0;        
+    /* display: flex;
+    align-content: center; */
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formGroupInputlogin {
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.loginRightTitle {
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.btnLogin {
+    background: linear-gradient(to right, #076df3, #42eb9c);
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    width: 430px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btnLoginGoogle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #076df3, #42eb9c);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.loginRightBottom {
+    text-align: center;
+    margin: 50px;
+}
+
+.btnLoginFace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #076df3, #42eb9c);
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.groupBtnLink {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}

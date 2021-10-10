@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
-import { ResponsiveContainer, LineChart, YAxis, Tooltip, Legend, Line, XAxis, CartesianGrid } from 'recharts'
 
 import './product.css'
-import {userData, productData} from '../../DummyData.js';
+import {productData} from '../../DummyData.js';
 import Chart from '../../components/chart/Chart';
-import { Upload, UploadFile } from '@mui/icons-material';
+import { Upload } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 
 
@@ -19,7 +18,7 @@ export default function Product({}) {
             </div>
             <div className="productTop">
                 <div className="productTopLeft">
-                    <Chart data = {productData} dataKey1='Sales product' 
+                    <Chart data = {data} dataKey1='Sales product' 
                         dataKey2='Active Sales' title = 'Sales performance'
                     />
                 </div>

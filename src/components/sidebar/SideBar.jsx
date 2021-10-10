@@ -6,8 +6,12 @@ import {LineStyle, Timeline, TrendingUp,PersonOutline,
 
 } from '@material-ui/icons';
 import { Link } from 'react-router-dom';
+import {firebase} from '../../config/firebase-config'
 
 export default function SideBar() {
+    const handleLogout = () => {
+        firebase.auth().signOut();
+    }
     return (
         <div className="sidebar">
             <div className="sidebarWrapper">
@@ -98,6 +102,11 @@ export default function SideBar() {
                                 <Report className="sidebarIcon"/> Reports
                             </li>
                         </ul>
+                </div>
+                <div>
+                    <button onClick = {handleLogout} className='btnLogout'>
+                        Logout    
+                    </button>    
                 </div>  
             </div>
         </div>
